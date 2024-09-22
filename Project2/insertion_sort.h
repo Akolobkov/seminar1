@@ -1,3 +1,3 @@
-
+#include <Project2/insertion_sort.cpp>
 #pragma once
-int inssort(int n, int a[]);
+template<typename T>int inssort(int n, T a[]);

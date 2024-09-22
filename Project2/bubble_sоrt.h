@@ -1,3 +1,3 @@
-
+#include "Project2/bubble_sîrt.cpp"
 #pragma once
-int bubsort(int n, int a[]);
+template<typename T>int bubsort(int n, int a[]);

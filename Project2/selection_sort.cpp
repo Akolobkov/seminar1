@@ -1,4 +1,5 @@
-int selsort(int n, int a[])
+template <typename T>
+int selsort(int n, T a[])
 {
     int i, j, k;
     for (i = 0; i < n - 1; i++)

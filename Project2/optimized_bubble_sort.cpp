@@ -1,4 +1,5 @@
-int opbubsort(int n, int a[]) {
+template <typename T>
+int opbubsort(int n, T a[]) {
     int i, j, k, s;
     for (i = 0; i < n - 1; i++) {
         s = 0;

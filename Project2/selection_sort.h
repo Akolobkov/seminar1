@@ -1,3 +1,3 @@
-
+#include <Project2/selection_sort.cpp>
 #pragma once
-int selsort(int n, int a[]);
+template<typename T>int  selsort(int n, T a[]);

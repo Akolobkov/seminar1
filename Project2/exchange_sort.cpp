@@ -1,4 +1,5 @@
-int exsort(int n, int a[])
+template <typename T>
+int exsort(int n, T a[])
 {
     int i, j, k, min;
     for (i = 0; i < n; i++)

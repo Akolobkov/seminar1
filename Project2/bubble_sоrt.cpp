@@ -1,4 +1,5 @@
-int bubsort(int n, int a[]) {
+template <typename T>
+int bubsort(int n, T a[]) {
     int i, j, k;
     for (i = 0; i < n - 1; i++) {
         for (j = 0; j < n - 1; j++) {
