@@ -131,7 +131,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="extest.cpp" />
+    <ClCompile Include="instest.cpp" />
+    <ClCompile Include="opbbubtest.cpp" />
+    <ClCompile Include="seltest.cpp" />
+    <ClCompile Include="bubtest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
