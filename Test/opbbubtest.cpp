@@ -1,6 +1,5 @@
 
 #include <catch2/catch.hpp>
-#include <Project2/optimized_bubble_sort.cpp>
 #include <Project2/optimized_bubble_sort.h>
 TEST_CASE("OpBubSort Test") {
     int arr1[] = { 7, -2, 5, -1, 8, -3 };

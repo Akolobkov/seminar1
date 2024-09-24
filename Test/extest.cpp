@@ -1,7 +1,6 @@
 #define CATCH_CONFIG_MAIN
 #include <catch2/catch.hpp>
 #include <Project2/exchange_sort.h>
-#include <Project2/exchange_sort.cpp>
 TEST_CASE("ExSort") {
     int arr1[] = { 7, 2, 5, 1, 8, 3 };
     int n1 = 6;
