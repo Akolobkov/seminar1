@@ -1,5 +1,6 @@
 #include <catch2/catch.hpp>
 #include <Project2/selection_sort.h>
+#include <Project2/selection_sort.cpp>
 TEST_CASE("SelSort Test") {
     int arr1[] = { 7 };
     int n1 = 1;
