@@ -1,6 +1,7 @@
 template <typename T>
 int opbubsort(int n, T a[]) {
-    int i, j, k, s;
+    int i, j, s;
+    T k;
     for (i = 0; i < n - 1; i++) {
         s = 0;
         for (j = 0; j < n - i - 1; j++) {

@@ -1,7 +1,8 @@
 template <typename T>
 int exsort(int n, T a[])
 {
-    int i, j, k, min;
+    int i, j;
+    T min;
     for (i = 0; i < n; i++)
     {
         min = a[i];
